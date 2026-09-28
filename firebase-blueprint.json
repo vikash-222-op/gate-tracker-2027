@@ -1,0 +1,21 @@
+{
+  "entities": {
+    "User": {
+      "collection": "users",
+      "fields": {
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    },
+    "UserSection": {
+      "collection": "users/{userId}/sections",
+      "fields": {
+        "sectionKey": { "type": "string" },
+        "items": { "type": "array" },
+        "updatedAt": { "type": "string" }
+      }
+    }
+  }
+}

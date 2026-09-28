@@ -1,0 +1,6 @@
+{
+  "name": "GATE 2027 Preparation Management System",
+  "description": "Comprehensive personal single-user GATE preparation management system with Excel import, progress tracking, quizzes, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
